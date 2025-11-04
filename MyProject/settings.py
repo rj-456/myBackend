@@ -56,9 +56,7 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True 
 
 ROOT_URLCONF = 'MyProject.urls'
-CSRF_TRUSTED_ORIGINS = [
-    "https://peitelbackend.onrender.com" 
-]
+CSRF_TRUSTED_ORIGINS = ["https://peitelbackend.onrender.com",]
 
 TEMPLATES = [
     {
