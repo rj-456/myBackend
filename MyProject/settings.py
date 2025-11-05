@@ -25,8 +25,11 @@ SECRET_KEY = 'django-insecure-vvsy!n%)+9iit&ms$addc01r%qx%z!+r=o_%!2o6x3c3r*)6-e
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://peitel-backend-ic6h.onrender.com', 'peitel-backend-ic6h.onrender.com']
-
+ALLOWED_HOSTS = [
+    'peitel-backend-ic6h.onrender.com', # Your live Render URL
+    '127.0.0.1', 
+    'localhost'
+]
 # Application definition
 
 INSTALLED_APPS = [
@@ -126,4 +129,6 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ["https://peitel-backend-ic6h.onrender.com"]
+CSRF_TRUSTED_ORIGINS = [ 
+    "https://peitel-backend-ic6h.onrender.com" 
+]
