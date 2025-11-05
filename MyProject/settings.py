@@ -126,4 +126,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ["https://peitelbackend.onrender.com"]
+CSRF_TRUSTED_ORIGINS = ["https://peitel-backend-ic6h.onrender.com"]
