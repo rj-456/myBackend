@@ -27,7 +27,6 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['https://peitel-backend-ic6h.onrender.com', 'peitel-backend-ic6h.onrender.com']
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -56,7 +55,6 @@ MIDDLEWARE = [
 CORS_ALLOW_ALL_ORIGINS = True 
 
 ROOT_URLCONF = 'MyProject.urls'
-CSRF_TRUSTED_ORIGINS = ["https://peitelbackend.onrender.com", "peitelbackend.onrender.com"]
 
 TEMPLATES = [
     {
@@ -128,3 +126,4 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+CSRF_TRUSTED_ORIGINS = ["https://peitelbackend.onrender.com"]
